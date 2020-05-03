@@ -2,14 +2,14 @@
 % Please edit documentation in R/functions.R
 \name{myLinearRegression}
 \alias{myLinearRegression}
-\title{Create a linear model between y and x(s). This also creates a scatterplot of the y and x variables.}
+\title{Create a linear model between y and x(s). For data with less than five (5) x variables, a scattergram of all variables will be created.}
 \usage{
 myLinearRegression(x = NULL, y = NULL, sub = NULL)
 }
 \arguments{
 \item{x}{A vector or matrix of data to predict y}
 
-\item{y}{A vector of numbers}
+\item{y}{A vector or matrix of numbers}
 
 \item{sub}{The number of rows in the data}
 }
